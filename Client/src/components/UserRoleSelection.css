@@ -1,0 +1,38 @@
+.user-role-selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./bg-2.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .user-role-selection-content {
+    text-align: center;
+    background-color: rgba(243, 242, 242, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateX(50px); /* Shift the box to the right */
+  }
+  
+  .user-role-selection-content h1 {
+    margin-bottom: 20px;
+  }
+  
+  .user-role-selection-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-role-selection-content button:hover {
+    background-color: #e5533d; /* Darker tomato color */
+  }
+  
